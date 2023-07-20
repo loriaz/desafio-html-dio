@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Introdução a HTML</title>
+</head>
+<body>
+    <h1 id="voltar">Primeiros passos para aprender HTML</h1>
+    <hr>
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#html">O que é HTML?</a></li>
+        <li> <a href="#oqtags">O que são tags?</a></li>
+        <li> <a href="#estrutura">Estrutura básica</a></li>
+        <li> <a href="#tags">Tags</a></li>
+        <li> <a href="#atributos">Atributos</a></li>
+        <li> <a href="#listas">Listas</a></li>
+        <li> <a href="#ancorar">Ancorar elementos</a></li>
+        <li> <a href="#refs">Referências</a></li>   
+    </ul>
+
+    <h2 id="html">O que é HTML?</h2>
+        <p>
+            A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativos online. Um hipertexto é um texto usado para fazer referência a outros textos, enquanto uma linguagem de marcação é composta por uma série de marcações que dizem para os servidores da web qual é o estilo e a estrutura de um documento.
+        </p>
+        <p>
+            O HTML não é considerado uma linguagem de programação, já que ele não pode criar funcionalidades dinâmicas. Ao invés disso, com o HTML, os usuários podem criar e estruturar seções, parágrafos e links usando elementos, tags e atributos.
+        </p>
+    <small> <a href="#voltar">(voltar)</a></small>
+
+    <h2 id="oqtags">O que são tags?</h2>
+        <p>
+            Os elementos HTML ou também chamados de tags HTML, são utilizados para informar ao navegador que tipo de estrutura é essa que está sendo construída, podendo ser títulos, parágrafos, imagens, links, entre outros.
+        </p>
+        <p>
+            As tags são formadas por uma estrutura própria, iniciam com o sinal “menor que”, em seguida vem o nome daquele elemento e por fim, o sinal “maior que”. Podem ser dispostas em tags que precisam de fechamento e tags que fecham sozinhas (self-closing). O fechamento de uma tag será definido com uma barra (/), sendo que no caso das tags de auto fechamento, não há necessidade da presença desse caractere.
+        </p>
+    <small> <a href="#voltar">(voltar)</a></small>
+        
+    <h2 id="estrutura">Estrutura básica</h2>
+        <h4> < html > </h4>
+        </p>
+            Define a raiz do documento. Engloba todos os outros elementos.
+        <p>
+           
+            <h4> < head > </h4>
+        </p>
+            Compreende as informações do documento que serão interpretadas pelo navegador, antes de carregar a página.
+        </p>
+        <p>
+            Por exemplo, título do documento, links para folhas de estilo etc.
+        </p>
+
+        <h4> < title > </h4>
+        </p>
+            Define o título do documento.
+        <p>
+        
+            <h4> < body > </h4>
+        </p>
+            É onde fica todo o conteúdo de texto, imagem e vídeos, em que o usuário vê e interage, nele os conteúdos são estruturados pelas demais tags do HTML.
+        <p>
+    <small> <a href="#voltar">(voltar)</a></small>
+
+    <h2 id="tags">Tags</h2>
+            <p>
+                Aqui estão algumas tags básicas utilizadas para definir títulos, parágrafos e marcações no texto ao longo do corpo do documento:
+            </p>
+        <h4> < h1 > até < h6 ></h4>
+            <p>
+                Definem títulos no corpo do texto. Vai de 1 até 6, sendo 1 o título mais importante (maior fonte) e 6 o título menos importante (menor fonte).
+            </p> 
+        <h4> < p > </h4>  
+            <p>
+                Define um parágrafo
+            </p>
+        <h4> < blockquote > </h4>
+            <p>
+                Define uma seção de citação de alguma outra fonte.
+            </p>
+        <h4> < mark > </h4>
+            <p>
+                Destaca o texto.
+            </p>
+        <h4> < small > </h4>
+            <p>
+                Define um texto pequeno.
+            </p>
+        <h4> < i >, < u > e < strong ></h4>
+            <p>
+                < i > pode representar uma parte do texto com uma diferença semântica, na qual a representação tipográfica padrão é no tipo itálico.
+            </p>
+            <p>
+                < u > é utilizado para sublinhar um espaço definido de um texto.
+            </p>
+            <p>
+                < strong > dá ao texto uma forte importância e é tipicamente mostrado em negrito.
+            </p>
+        <h4> < hr > </h4>
+            <p>
+                Exibe uma linha horizontal que separa os conteúdos da página.
+            </p>
+        <h4> < sub > e < sup > </h4>
+            <p>
+                < sub > é utilizado para definir textos subscritos. 
+            </p>
+            <p>
+                < sup > é utilizado para definir textos sobrescritos.
+            </p>
+        <h4> < font > </h4>
+            <p>
+                A tag font era usada no HTML 4 para especificar a fonte, o tamanho da fonte e a cor do texto.
+            </p>
+            <p>
+                Em versões mais recentes, use as propriedades do CSS para estilizar o texto.
+            </p>
+        <h4> < del > </h4>
+            <p>
+                Demonstra parte excluídas do documento.
+            </p>
+        <h4> < abbr > </h4>
+            <p>
+                Define uma abreviação ou acrônimo.
+            </p>
+    <small> <a href="#voltar">(voltar)</a></small>
+    <h2 id="atributos">Atributos</h2>
+        <p>
+            Atributos HTML são palavras especiais usadas dentro da tag de abertura para controlar o comportamento do elemento. Os atributos HTML são um modificador de um tipo de elemento HTML. Com eles podemos identificar melhor um elemento, informar qual arquivo aquela tag deve utilizar, indicar o tipo de um campo de texto, etc…
+        </p>
+        <p>
+            Há dois tipos de atributos no HTML, os globais que são aceitos por todas as tags, como por exemplo: class, id, lang, style e algumas outras que você pode conferir na documentação também existem os específicos que somente algumas tags possuem, como src, disabled, href, label, etc…
+        </p> 
+        <p>
+            Os principais são:
+            <ul>
+                <li>class=”NomeDaClasse”</li>
+                <li>id=”NomeDoId”</li>
+                <li>src=”Link ou diretório da mídia"</li>
+                <li>alt=”Texto alternativo”</li>
+                <li>href=”Url”</li>
+                <li>lang=”Linguagem”</li>
+                <li>target=”blank”</li>
+            </ul>
+        </p>  
+    <small> <a href="#voltar">(voltar)</a></small>
+    <h2 id="listas">Listas</h2>
+        <p>
+            Para criar listas são utilizadas as tags "< ol >", "< ul >" e "< li >".
+        </p>
+        <p>
+            A tag < ol > é utilizada para criar listas ordenadas. As listas ordenadas são, por padrão, ordenadas por números.
+        </p>    
+        
+        <p>
+            A tag < ul > é utilizada para criar listas desordenadas. As listas desordenadas são organizadas com "pontinhos".
+        </p>    
+        <p>
+            Em ambos os tipos, os items listados devem ser escritos entre a tag < li > (list item)
+        </p>
+    <small> <a href="#voltar">(voltar)</a></small>
+    <h2 id="ancorar">Ancorar elementos</h2>
+        <p>
+            Com o HTML é possível criar uma espécie de âncora que linka diferentes elementos, sejam dentro de uma mesma página, como índices e botões de voltar, ou entre páginas diferentes, como um botão que leva a um outro site.
+        </p>
+        <p>
+            Para isso, é utilizada a tag "< a >" junto com o atributo "href": <br>
+            <strong>< a href="</strong><i>referência</i><strong>"> </strong><i>Texto que se refere ao link</i> </strong><strong>< /a ></strong>
+        </p>
+        <h4>Referência no href</h4>
+        <p>
+            As referências podem ser endereços de email, endereços URL, arquivos ou o nome de um atributo "id=" criado em alguma parte do texto, por exemplo.
+        </p>
+        <p>
+            O atributo "id=" serve para identificar de forma única um elemento na página HTML e, assim, indicar destino de âncoras. Na construção de um índice, por exemplo, ao criar os tópicos ao longo da página, deve haver o atributo "id=":
+        </p>
+        <p>
+            < h2 <strong>id="primeiro"</strong> > Tópico 1 < /h2 >
+        </p>
+        <p>
+            E no texto do índice, deve-se utilizar a tag < a href="" > com o id indicado após um "#" na referência:
+        </p>
+        <p> 
+            < ul > <br>
+                < li > <br>
+                    < a <strong>href="#primeiro"</strong> > Tópico 1 < /a > <br>
+                < /li > <br>
+            < /ul >
+        </p>
+        <p>
+            Dessa maneira, ao clicar no texto do índice, o usuário será direcionado ao tópico na página.
+        </p>
+    <small> <a href="#voltar">(voltar)</a></small>    
+    
+    <h2 id="refs">Referências</h2> 
+    <a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos#Tags_e_Elementos_HTML_mais_Utilizados" target="_blank">O que é HTML</a> <br>
+    <a href="https://www.w3schools.com/tags/default.asp" target="_blank">Tags</a>   <br>
+    <a href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-5-atributos-elementos" target="_blank">Atributos</a><br>
+
+</body>
+</html>
